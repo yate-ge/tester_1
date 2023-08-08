@@ -1,0 +1,22 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-file": {
+      "ANDROIDX_WEBKIT_VERSION": "1.4.0",
+      "PACKAGE_NAME": "io.cordova.tester"
+    },
+    "cordova-plugin-android-dark-mode-support": {
+      "PACKAGE_NAME": "io.cordova.tester"
+    },
+    "cordova-plugin-fullscreen": {
+      "PACKAGE_NAME": "io.cordova.tester"
+    }
+  },
+  "dependent_plugins": {}
+}

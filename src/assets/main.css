@@ -1,0 +1,51 @@
+@import "./base.css";
+
+#app {
+  /* max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  font-weight: normal; */
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+body {
+  /* display: flex;
+  place-items: center; */
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@media (prefers-color-scheme: light) {
+
+}
+
+
+@media (prefers-color-scheme: dark) {
+  html,body,#app,.ant-btn {
+    background-color: #121212;
+    color: #ececec;
+  }
+  #app .ant-btn {
+    background-color: #121212;
+    color: #ececec;
+  }
+}
